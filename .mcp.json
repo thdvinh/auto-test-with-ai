@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "trial-mcp": {
+      "command": "python",
+      "args": [
+        "mcp_stdio_server.py"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    }
+  }
+}
